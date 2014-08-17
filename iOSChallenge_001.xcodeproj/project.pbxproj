@@ -13,6 +13,8 @@
 		03CF1BDA199FFF4500068E0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CF1BD8199FFF4500068E0F /* Main.storyboard */; };
 		03CF1BDC199FFF4500068E0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03CF1BDB199FFF4500068E0F /* Images.xcassets */; };
 		03CF1BE8199FFF4500068E0F /* iOSChallenge_001Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF1BE7199FFF4500068E0F /* iOSChallenge_001Tests.swift */; };
+		03CF1BF219A03C3C00068E0F /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF1BF119A03C3C00068E0F /* LoggedInViewController.swift */; };
+		03CF1BF419A040F400068E0F /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 03CF1BF319A040F400068E0F /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		03CF1BE1199FFF4500068E0F /* iOSChallenge_001Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSChallenge_001Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03CF1BE6199FFF4500068E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03CF1BE7199FFF4500068E0F /* iOSChallenge_001Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSChallenge_001Tests.swift; sourceTree = "<group>"; };
+		03CF1BF119A03C3C00068E0F /* LoggedInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggedInViewController.swift; sourceTree = "<group>"; };
+		03CF1BF319A040F400068E0F /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +83,9 @@
 			children = (
 				03CF1BD1199FFF4500068E0F /* AppDelegate.swift */,
 				03CF1BD6199FFF4500068E0F /* ViewController.swift */,
+				03CF1BF119A03C3C00068E0F /* LoggedInViewController.swift */,
 				03CF1BD8199FFF4500068E0F /* Main.storyboard */,
+				03CF1BF319A040F400068E0F /* logo.png */,
 				03CF1BDB199FFF4500068E0F /* Images.xcassets */,
 				03CF1BD3199FFF4500068E0F /* iOSChallenge_001.xcdatamodeld */,
 				03CF1BCF199FFF4500068E0F /* Supporting Files */,
@@ -194,6 +200,7 @@
 			files = (
 				03CF1BDA199FFF4500068E0F /* Main.storyboard in Resources */,
 				03CF1BDC199FFF4500068E0F /* Images.xcassets in Resources */,
+				03CF1BF419A040F400068E0F /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +221,7 @@
 				03CF1BD7199FFF4500068E0F /* ViewController.swift in Sources */,
 				03CF1BD2199FFF4500068E0F /* AppDelegate.swift in Sources */,
 				03CF1BD5199FFF4500068E0F /* iOSChallenge_001.xcdatamodeld in Sources */,
+				03CF1BF219A03C3C00068E0F /* LoggedInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
