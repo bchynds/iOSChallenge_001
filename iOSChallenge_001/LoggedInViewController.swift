@@ -14,8 +14,14 @@ class LoggedInViewController: UIViewController {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
     
+    @IBOutlet weak var myImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        myImageView.userInteractionEnabled = true
+        
+        var tapGesture = UITapGestureRecognizer(target:self, action:"myTapMethod")
+        myImageView.addGestureRecognizer(tapGesture)
 
         // Do any additional setup after loading the view.
     }
@@ -23,6 +29,11 @@ class LoggedInViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func myTapMethod() {
+        var helloWorldAlert: UIAlertView = UIAlertView(title:nil , message: "Hello World!", delegate: self, cancelButtonTitle: "Close")
+        helloWorldAlert.show()
     }
     
 

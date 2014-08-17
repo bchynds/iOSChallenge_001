@@ -114,6 +114,9 @@
                             <constraint firstItem="M88-94-L7k" firstAttribute="trailing" secondItem="tf9-3p-vCR" secondAttribute="trailingMargin" id="rpD-7R-Q6T"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="myImageView" destination="PPb-9l-qXD" id="ydX-sx-6JS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fbj-Mz-JGZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
